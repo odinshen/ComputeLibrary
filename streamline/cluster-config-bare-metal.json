@@ -1,0 +1,9 @@
+{
+  "operating-system": "none",
+  "sampling-frequency": 1000,
+  "app-name": "neon_cnn_bm_example_v8a.elf",
+  "app-proc-id": 100000,
+  "symbol-info-files": [
+    "neon_cnn_bm_example_v8a.elf.csv"
+  ]
+}

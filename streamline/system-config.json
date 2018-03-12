@@ -1,0 +1,6 @@
+[
+  {
+    "Subsystem_name": "FVP_Base_AEMv8A.cluster0.cpu0",
+    "Subsystem_config_file": "C:\\Users\\odishe01\\OneDrive - ARM\\Projects\\ACL_Profiling\\ComputeLibrary_Profiling\\streamline\\cluster-config-bare-metal.json"
+  }
+]

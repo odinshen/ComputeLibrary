@@ -1,0 +1,16 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+#streamline report
+streamline/ACL18.3_BM__AEMv8a__NEON_CNN.apc
