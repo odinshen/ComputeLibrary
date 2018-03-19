@@ -168,4 +168,6 @@ scons Werror=1 -j8 debug=0 neon=1 opencl=0 os=bare_metal arch=arm64-v8a build=cr
 scons Werror=1 -j8 debug=0 neon=1 opencl=0 os=bare_metal arch=arm64-v8.2-a build=cross_compile cppthreads=0 openmp=0 standalone=1
 
 
-
+v8.2 gaussian_bm.cpp
+	src:  
+	dest: 
