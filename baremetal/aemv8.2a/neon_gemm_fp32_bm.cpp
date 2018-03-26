@@ -41,9 +41,17 @@ void neon_gemm_fp16(int argc, const char **argv)
 	alpha = 1.0f;
     beta  = 0.0f;
 
-	src0.allocator()->init(TensorInfo(TensorShape(5U, 7U), 1, DataType::F32));
-	src1.allocator()->init(TensorInfo(TensorShape(3U, 5U), 1, DataType::F32));
-    src2.allocator()->init(TensorInfo(TensorShape(3U, 7U), 1, DataType::F32));
+//	src0.allocator()->init(TensorInfo(TensorShape(5U, 7U), 1, DataType::F32));
+//	src1.allocator()->init(TensorInfo(TensorShape(3U, 5U), 1, DataType::F32));
+//	src2.allocator()->init(TensorInfo(TensorShape(3U, 7U), 1, DataType::F32));
+
+	src0.allocator()->init(TensorInfo(TensorShape(20U, 28U), 1, DataType::F32));
+	src1.allocator()->init(TensorInfo(TensorShape(12U, 20U), 1, DataType::F32));
+	src2.allocator()->init(TensorInfo(TensorShape(12U, 28U), 1, DataType::F32));
+
+//	src0.allocator()->init(TensorInfo(TensorShape(80U, 112U), 1, DataType::F32));
+//	src1.allocator()->init(TensorInfo(TensorShape(48U, 80U), 1, DataType::F32));
+//	src2.allocator()->init(TensorInfo(TensorShape(48U, 112U), 1, DataType::F32));
 
 	init_sgemm_output(dst, src0, src1, DataType::F32);
 
