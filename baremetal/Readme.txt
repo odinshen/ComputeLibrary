@@ -171,3 +171,15 @@ scons Werror=1 -j8 debug=0 neon=1 opencl=0 os=bare_metal arch=arm64-v8.2-a build
 v8.2 gaussian_bm.cpp
 	src:  
 	dest: 
+	
+	
+	
+	
+	
+BS_0x0
+CA CA55 MP4
+	cycle count: 14000, PC: 0x56f6c (allocat kernel)
+				 20000, PC: 0x8f7c
+				 24000, PC: 1cd60 (memory allocate)
+				 30000, PC: 4b148 (conv square)
+				 50000, PC: 13ec (_exit) ...
